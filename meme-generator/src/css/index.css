@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
+
+@font-face {
+  font-family: "Courier New", Serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.navbar {
+  background-color: purple;
+  color: #fff;
+  text-shadow: 1px 2px 3px #555;
+  margin-top: 0;
+  display: block;
+  height: 90px;
+  text-align: right;
+}
+.navbar .image {
+  float: left;
+  padding-left: 20px;
+}
+.navbar .nav-title {
+  float: right;
+  font-family: Consolas, "Courier New";
+  font-size: 70px;
+  font-weight: 600;
+  text-shadow: 3px 4px 5px #000;
+  padding-right: 350px;
+}
+
+.profile {
+  margin: 0 auto;
+  width: 50%;
+  padding: 20px 0;
+  color: #094b06;
+}
+
+.meme-form {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.meme-form button {
+  background: purple;
+  color: #fff;
+}
+
+.meme {
+  margin-bottom: 50px;
+  position: relative;
+}
+.meme img {
+  width: 100%;
+}
+
+.meme .top-text,
+.meme .bottom-text{
+  color: white;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  font-weight: 600;
+  font-size: 36px;
+  -webkit-text-stroke: 2px #222;
+  /*text-shadow:*/
+          /*-1px -1px 0 #000,*/
+          /*1px -1px 0 #000,*/
+          /*-1px 1px 0 #000,*/
+          /*1px 1px 0 #000;*/
+  text-shadow: #000 0 0 10px;
+  text-transform: uppercase;
+  font-family: 'Anton', sans-serif;
+  /*font-family: 'Alfa Slab One', sans-serif;*/
+}
+
+.meme .top-text{
+  top: 30px;
+}
+
+.meme .bottom-text{
+  bottom: 30px;
+}
+footer {
+  border-top: 1px #d3d3d3 solid;
+  color: #222222;
+  font-size: 12px;
+  /*margin-bottom: 0;*/
+  padding: 15px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #fff;
+  /*width: 100%;*/
+}

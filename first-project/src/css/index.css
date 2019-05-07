@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.navbar {
+  background-color: dodgerblue;
+  color: #fff;
+  text-shadow: 1px 2px 3px #555;
+  margin-top: 0;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  align-content: center;
+}
+.navbar h1 {
+  line-height: 0.3;
+}
+.profile {
+  margin: 0 auto;
+  width: 50%;
+  padding: 20px 0;
+  color: #094b06;
+}
+
+footer {
+  border-top: 1px #d3d3d3 solid;
+  color: #222222;
+  font-size: 12px;
+  /*margin-bottom: 0;*/
+  padding: 15px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  /*width: 100%;*/
+}
